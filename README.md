@@ -1,6 +1,7 @@
 # omie-energy-analyzer
 Tool to retrieve and analyze OMIE files for energy prices in Portugal
 
+```
 usage: omie-energy-analyzer.py [-h] [--initialize-history] [--get-day GET_DAY] [--get-tomorrow] [--analyze] [--dir DIR] [--file FILE] [--graph]
 
 Parameterized functions example
@@ -14,3 +15,4 @@ optional arguments:
   --dir DIR             Directory containing CSV files. Used only if --analyze is specified.
   --file FILE           File extension of CSV files Used only if --analyze is specified.
   --graph               Display a graph with the price analysis Used only if --analyze is specified.
+```
